@@ -1,5 +1,5 @@
 # Doodle Classifier
-A simple doodle classifier trained on google's quick draw dataset.
+A simple doodle classifier trained on google's quick draw dataset. Trained model files [lovesaroha/Trained-Models/Doodle-Model](https://github.com/lovesaroha/Trained-Models/Doodle-Model)
 
 ![image](https://raw.githubusercontent.com/lovesaroha/gimages/main/70.png)
 
