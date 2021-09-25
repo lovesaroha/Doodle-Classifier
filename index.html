@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="doodle classifier">
+    <title>Doodle Classifier</title>
+    <!-- Include css files. -->
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/fa.min.css">
+</head>
+
+<body>
+    <div class="container w-full mx-auto max-w-8/12 md:px-4 mb-2">
+        <!-- Header. -->
+        <center>
+            <h1 class="font-bold display-1 underline">
+                Doodle Classifier
+            </h1>
+            <h4 class="text-subtitle mb-6">A simple doodle classifier trained on google's quick draw dataset.</h4>
+        </center>
+    </div>
+    <div id="view_id" class="mb-6 mx-auto max-w-xl">
+        <!-- Loading. -->
+        <center>
+            <i class="fad fa-spinner-third text-primary fa-3x fa-spin"></i>
+            <h3 class="font-bold">Loading Model..</h3>
+        </center>
+    </div>
+    <!-- Footer. -->
+    <div class="mb-2 card text-center p-2 mx-auto max-w-xl">
+        <h4 class="text-subtitle"><a href="https://github.com/lovesaroha/Doodle-Classifier"
+                target="_blank">LoveSaroha/Doodle-Classifier</a></h4>
+        <h3 class="text-subtitle font-bold mb-0 hover:underline cursor-pointer"
+            onclick="javascript: window.location = 'https://lovesaroha.com';">Love Saroha</h3>
+        <h4 class="text-gray">lovesaroha1994@gmail.com</h4>
+    </div>
+    <!-- Include script.js file -->
+    <script type="text/javascript" src="./assets/tf.min.js"></script>
+    <script type="text/javascript" src="./assets/script.js"></script>
+</body>
+
+</html>
+
+<!-- Home page template. -->
+<template id="homePage_id">
+    <div class="bg-light mx-auto max-w-xl mb-2 p-2 text-center">
+        <h4 class="text-gray mb-0">Draw and click on predict to get result.</h4>
+    </div>
+    <div class="bg-primary mx-auto max-w-md text-center" id="result_id"></div>
+    <center>
+        <!-- Canvas.  -->
+        <canvas id="myCanvas" style="background: url('assets/background.png');"  height="420" width="420" class="hide-on-md shadow-md mb-2"></canvas>
+    </center>
+    <div class="mx-auto max-w-xl mb-2 p-2 flex justify-center">
+        <button class="mx-3" onclick="javascript: clearCanvas();">Clear</button>
+        <button class="mx-3" onclick="javascript: predict();">Predict</button>
+    </div>
+</template>
