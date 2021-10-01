@@ -1,5 +1,6 @@
 # Doodle Classifier
-A simple doodle classifier trained on google's quick draw dataset. Trained model files [lovesaroha/Trained-Models/Doodle-Model](https://github.com/lovesaroha/Trained-Models/Doodle-Model)
+A simple doodle classifier trained on google's quick draw dataset.<br> Trained model files [lovesaroha/Trained-Models/Doodle-Model](https://github.com/lovesaroha/Trained-Models/Doodle-Model)<br>
+Demo [lovesaroha/Doodle-Classifier](https://ml.lovesaroha.com/Doodle-Classifier)
 
 ![image](https://raw.githubusercontent.com/lovesaroha/gimages/main/70.png)
 
@@ -32,4 +33,3 @@ A simple doodle classifier trained on google's quick draw dataset. Trained model
 ![image](https://raw.githubusercontent.com/lovesaroha/gimages/main/77.png)
 
 
-[lovesaroha/Doodle-Classifier](https://ml.lovesaroha.com/Doodle-Classifier)
