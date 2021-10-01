@@ -46,7 +46,7 @@ const classes = ['flashlight', 'belt', 'mushroom', 'pond', 'strawberry', 'pineap
 
 let model;
 // Load trained model.
-tf.loadLayersModel("https://models.lovesaroha.com/doodle-model/model.json").then(savedModel => {
+tf.loadLayersModel("https://models.lovesaroha.com/Doodle-Model/model.json").then(savedModel => {
     model = savedModel;
     document.getElementById("view_id").innerHTML = document.getElementById("homePage_id").innerHTML;
     canvas = document.getElementById('myCanvas');
